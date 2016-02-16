@@ -1,0 +1,34 @@
+{
+  "title": "procrastination timer",
+  "name": "procrastinationtimer",
+  "version": "0.0.1",
+  "description": "Firefox addon to take procrastination under some sort of control",
+  "main": "index.js",
+  "author": "myrtree",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "preferences": [{
+    "name": "timerIncrement",
+    "title": "increment and start value for timer",
+    "description": "",
+    "type": "integer",
+    "value": 10
+  }, {
+    "name": "badgeDefaultColor",
+    "title": "button badge default color",
+    "description": "",
+    "type": "string",
+    "value": "#00AAAA"
+  }, {
+    "name": "badgeTimesUpColor",
+    "title": "button badge color when times up",
+    "description": "",
+    "type": "string",
+    "value": "#CC0000"
+  }]
+}
